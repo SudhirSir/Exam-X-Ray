@@ -1,0 +1,46 @@
+# Web & API
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+pydantic-settings==2.15.0
+python-multipart==0.0.32
+email-validator==2.3.0
+python-jose[cryptography]==3.5.0
+bcrypt==4.3.0
+slowapi==0.1.9
+structlog==25.1.0
+python-dotenv==1.2.2
+
+# Database & Migrations
+SQLAlchemy==2.0.54
+alembic==1.15.2
+psycopg2-binary==2.9.10
+pgvector==0.3.6
+aiosqlite==0.22.1
+
+# Cache & Object Storage
+redis==5.2.1
+boto3==1.37.0
+
+# Data Engineering (PySpark & Delta Lake)
+pyspark==4.1.1
+delta-spark==4.3.1
+pyarrow==20.0.0
+pandas==2.2.3
+
+# PDF Extraction & Generation
+pymupdf==1.26.0
+pypdf==5.4.0
+reportlab==4.3.1
+
+# AI / ML / Optimization
+numpy==2.2.2
+scikit-learn==1.6.1
+scipy==1.15.2
+sentence-transformers==4.0.2
+ortools==9.12.4544
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.26.0
+httpx==0.28.1
